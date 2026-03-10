@@ -6,7 +6,7 @@
 #    By: ppousser <ppousser@student.42urduliz.      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/03/04 13:50:34 by ppousser          #+#    #+#              #
-#    Updated: 2026/03/05 10:28:25 by ppousser         ###   ########.fr        #
+#    Updated: 2026/03/05 15:47:09 by ppousser         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ NAME = get_next_line
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -I./includes -D BUFFER_SIZE=42
-SRC = get_next_line.c  get_next_line.h  get_next_line_utils.c 
+SRC = get_next_line.c  get_next_line_utils.c 
 
 OBJ = $(SRC:.c=.o)
 
